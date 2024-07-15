@@ -10,7 +10,9 @@ const categories = {};
 
 data.repositories.sort((a, b) => {
     const nameA = a.name.toUpperCase();
+    
     const nameB = b.name.toUpperCase();
+     const nameC = a.name.toUpperCase();
     if (nameA < nameB) {
         return -1;
     }
